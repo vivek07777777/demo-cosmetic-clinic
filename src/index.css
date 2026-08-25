@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-bg-primary: #F7F5F1;
+    --color-bg-secondary: #EEEAE3;
+    --color-dark: #171715;
+    --color-text-primary: #1D1D1A;
+    --color-text-secondary: #6F6D67;
+    --color-accent: #A68B6A;
+    --color-border: #DCD7CE;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-display, .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F5F1;
+}
+::-webkit-scrollbar-thumb {
+  background: #DCD7CE;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A68B6A;
+}
+
+/* Range input slider styling for comparison */
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 2px solid #A68B6A;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  cursor: ew-resize;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 2px solid #A68B6A;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  cursor: ew-resize;
+}
+

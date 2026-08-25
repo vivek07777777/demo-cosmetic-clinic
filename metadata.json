@@ -1,0 +1,6 @@
+{
+  "name": "LUMÉRA AESTHETICS — Cosmetic Clinic Demo",
+  "description": "A luxury, editorial-grade, conversion-focused demo website designed for high-end cosmetic clinics and medical aesthetic practices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
