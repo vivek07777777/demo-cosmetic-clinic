@@ -171,7 +171,7 @@ export const ResultsSlider: React.FC = () => {
                   {currentCase.title}
                 </h3>
                 <p className="text-xs text-[#6F6D67] mt-1 font-light">
-                  {currentCase.subtitle}
+                  {currentCase.subtitle || currentCase.patientProfile}
                 </p>
               </div>
 
@@ -187,7 +187,7 @@ export const ResultsSlider: React.FC = () => {
               </div>
 
               <p className="text-xs text-[#6F6D67] font-light leading-relaxed">
-                {currentCase.note}
+                {currentCase.clinicalNotes || currentCase.note}
               </p>
 
               <div className="pt-2 text-[10px] text-[#6F6D67]/80 italic">

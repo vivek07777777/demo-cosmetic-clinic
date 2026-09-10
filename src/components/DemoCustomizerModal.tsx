@@ -22,7 +22,7 @@ const colorPresets = [
 
 const sampleClinics = [
   {
-    name: 'COSMETIC AESTHETICS',
+    name: 'COSMETIC CLINIC',
     city: 'Metropolitan District',
     phone: '+00 000 000 0000',
     email: 'hello@example.com',

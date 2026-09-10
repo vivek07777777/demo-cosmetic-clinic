@@ -214,7 +214,7 @@ export const About: React.FC<AboutProps> = ({ clinic, onOpenBooking }) => {
                         Focus Areas:
                       </span>
                       <div className="flex flex-wrap gap-1.5">
-                        {doc.specialties.map((spec, i) => (
+                        {doc.specialties?.map((spec, i) => (
                           <span
                             key={i}
                             className="px-2 py-0.5 bg-[#EEEAE3] text-[10px] text-[#6F6D67] border border-[#DCD7CE]"
